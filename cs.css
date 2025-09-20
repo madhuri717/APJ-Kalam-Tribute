@@ -1,0 +1,36 @@
+*{margin:0px;
+padding:0px;
+box-sizing:border-box;
+ }
+.container{
+ width:100%; 
+min-height:100vh;
+border:10px solid black;
+background-color:rgb(182, 219, 242);
+ }
+ .image_container {
+  display: flex;
+   align-items: center;
+   justify-content: space-between;
+  padding: 60px;
+}
+.image_container img {
+ width:100%;
+ height:500px;
+margin-left:10px;
+border-radius:200px;
+ }
+.name{
+text-align:right;
+  
+}
+.content{
+ margin-top:0px;
+ border:2px solid none;
+background-color:rgb(182, 219, 242);
+}
+ 
+.content2{
+ border:2px solid none;
+ 
+}
